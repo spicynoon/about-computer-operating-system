@@ -131,6 +131,8 @@ chown [user:group] <file/folder>
 ### Pencarian File dan Folder
 ```bash
 find [options] [path] [expressions]
+'''
+
 ## Kompresi Data
 *tar
 ```bash
@@ -139,7 +141,8 @@ tar [options] [output] [file or folder]
 contoh
 tar -cfv output.tar contoh.ssh
 ```
-Ekstrak file yang dikompresi `tar` bisa dengan cara
+
+Ekstrak file tar
 ```bash
 tar -xfv output.tar
 ```
@@ -151,7 +154,8 @@ gzip [options] [file]
 contoh
 gzip -k contoh.ssh
 ```
-Untuk mengekstrak file yang dikompresi `gzip` bisa dengan cara
+
+Ekstrak file gz
 ```bash
 gzip -d output.gz
 ```
